@@ -30,8 +30,9 @@ const pickSafe = (list) => {
             count++;
         };
     };
-    console.log('point', start); // point
-    console.log('answer', count); // answer
+    
+    console.log('point: ', start); // point
+    console.log('answer: ', count); // answer
     
     return count;
 };
