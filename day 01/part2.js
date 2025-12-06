@@ -18,6 +18,7 @@ const pickSafe = (list) => {
 
         // console.log({ direction });
         // console.log({ rotations });
+        
         if (direction === 'L') {
             for (let j = 0; j < rotations; j++) {
                 place--;
@@ -39,7 +40,8 @@ const pickSafe = (list) => {
         };
     };
 
-    console.log({ zeroCounter });
+    console.log({ zeroCounter }); // answer
+    
     return zeroCounter;
 };
 
